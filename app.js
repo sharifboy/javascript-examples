@@ -18,7 +18,6 @@ const sentence = hightlight`Hi my name is${str}, my age is${age} years old`;
 console.log(hightlight`Hi my name is${str}, my age is${age} years old`);
 document.body.innerHTML = sentence;
 
-
 // FUNCTION CONSTRUCTOR
 
 function User(name, age, country) {
